@@ -4,7 +4,7 @@ class DiceController < ApplicationController
   end
 
   def two_ten
-    render({ :template => "dice_templates/2d6"})
+    render({ :template => "dice_templates/2d10"})
   end
 
   def one_twenty
@@ -15,7 +15,7 @@ class DiceController < ApplicationController
     render({ :template => "dice_templates/5d4"})
   end
 
-  def hompage
+  def home
     render({ :template => "dice_templates/home"})
   end
 
