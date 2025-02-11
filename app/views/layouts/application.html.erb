@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dice Roll Static</title>
+    <title>Target: Dice Roll</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head> 
   <body>
+
+    <nav style="display: flex; justify-content: space-between;">
+      <a href="/">Home</a>
+      <a href="/dice/2/10">2d10</a>
+      <a href="/dice/1/20">1d20</a>
+      <a href="/dice/5/4">5d4</a>
+    </nav>
 
     <%= yield %>
 
   </body>
-    <a href="/dice/2/6">2d6</a>
-    <a href="/dice/2/10">2d10</a>
 </html>
